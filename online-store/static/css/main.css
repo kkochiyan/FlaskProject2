@@ -1,0 +1,32 @@
+.col {
+  flex-grow: 1; /* Чтобы колонки занимали одинаковое пространство */
+}
+
+.card {
+  height: 100%; /* Карточки занимают всю высоту родителя */
+}
+
+.card-header {
+  min-height: 100px; /* Задаем минимальную высоту */
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Стили для выравнивания кнопок */
+.card-body {
+  position: relative;
+  padding-bottom: 60px; /* Место под кнопку */
+}
+
+.btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: auto; /* Отодвигает кнопку вниз */
+}
